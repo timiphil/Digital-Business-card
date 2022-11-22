@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0; 
+    font-family: "Poppins" sans-serif; 
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 63px;
+    top: 53px;
+    background: #23252C;
+    border: 1px solid #000000;
+}
+.card--picture {
+    position: absolute;
+    width: 317px;
+    height: 280px;
+    left: 116px;
+    top: 44px; 
+    border-radius: 10px 10px 0px 0px;
+    background-color: #1A1B21; 
+}
+.info {
+    background-color: #1A1B21;
+}
+.info > h1, h3 {
+    position: absolute;
+    width: 178.06px;
+    left: 186px;
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center; 
+}
+
+.info > h1 {
+    height: 25.81px;
+    top: 335px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+.info > h3 {
+    height: 14.19px;
+    top: 375px;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    color: #F3BF99;
+    margin-top: 1rem;
+}
+
+.info > p {
+    position: absolute;
+    width: 228px;
+    height: 16px;
+    left: 161px;
+    top: 400px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400; 
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+    margin-top: 1rem;
+}
+.buttons {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    position: absolute; 
+    font-family: 'Poppins';
+    
+}
+.buttons > button:first-child  {
+    position: absolute; 
+    width: 115px;
+    height: 34px;
+    left: 151px;
+    top: 455px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Poppins';
+}
+.email-img {
+    width:15px; 
+    height: 11px;
+    margin-right: 4px;
+}
+.linkedin-img {
+    width: 15px; 
+    height: 13px;
+    margin-right: 4px;
+    padding-top: 1.5px; 
+}
+.buttons > button:last-child {
+    position: absolute;
+    width: 115px;
+    height: 34px;
+    left: 283px;
+    top: 455px;
+    background: #5093E2;
+    border: 1px solid #5093E2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Poppins';
+     
+}
+
+/* main */
+main {
+    display: flex;
+    flex-direction: column;  
+    position: absolute;
+    width: 317px;
+    height: 250px;
+    left: 116px;
+    top: 535px;
+    background-color: #1A1B21;
+    overflow-y: hidden;
+    align-items: center;
+    justify-content: center;
+}
+/* About */
+.about {
+    display: flex; 
+    flex-direction: column; 
+    position: absolute; 
+    justify-content: center;
+    align-items: flex-start;
+    top: 2px;
+    width: 242.71px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+    z-index: 1; 
+    
+}
+.about--info {
+    display: flex; 
+    flex-direction: column; 
+    position: absolute; 
+    justify-content: center;
+    height: 61px;
+    top: 30px;
+    margin: 1rem 2.3rem; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+    z-index: 1; 
+}
+.interest {
+    display: flex; 
+    flex-direction: column;
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    top: 120px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+    justify-content: center; 
+   
+}
+.interest-info {
+    position: absolute;
+    width: 247px;
+    height: 61px;
+    top: 140px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+    justify-content: center; 
+    margin: 1rem 2.3rem; 
+}
+
+/* Footer */
+.footer {
+    display: flex; 
+    align-items: center; 
+    justify-content:space-around; 
+    position: absolute;
+    width: 317px;
+    height: 70px;
+    left: 116px;
+    top: 760px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+   margin-top: 25px; 
+}
+.footer > img:first-child {
+    left: 34.36%;
+    right: 61.09%;
+    top: 89.75%;
+    bottom: 7.37%;
+    background: #918E9B;
+    border-radius: 3px;     
+}
+.facbook-logo {
+    left: 43.27%;
+    right: 52.18%;
+    additive-symbols: 89.75%;
+    bottom: 7.37%;
+    background: #918E9B;
+    border-radius: 3px; 
+    
+}
+.instagram-logo {
+    left: 52.18%;
+    right: 43.27%;
+    top: 89.75%;
+    bottom: 7.37%;
+    background: #918E9B;
+    border-radius: 3px; 
+    
+}
+.footer > img:last-child {
+    left: 61%;
+    right: 34.45%;
+    top: 89.8%;
+    bottom: 7.32%;
+    background: #918E9B;
+    border-radius: 3px; 
+}
