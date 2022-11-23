@@ -1,5 +1,5 @@
 {
-  "homepage": "https://timiphil.github.oi/Digital-Business-card",
+  "homepage": "http://timiphil.github.oi/Digital-Business-card",
   "name": "project",
   "dependencies": {
     "react": "17.0.2",
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",  
+    "deploy": "gh-pages -d build",
     "build": "webpack",
     "watch": "webpack -w"
   }
